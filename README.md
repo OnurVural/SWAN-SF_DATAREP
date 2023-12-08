@@ -4,12 +4,12 @@ Three solar flare classification strategies using the SWAN-SF dataset are assess
 
 # Exec. Details
 
-* `DATA/ contains data points, in case of training all components from scratch, the folders to keep data files must be placed under here (names and paths can be specified while running the relevant notebook cells).
+* <code>DATA/<code> contains data points, in case of training all components from scratch, the folders to keep data files must be placed under here (names and paths can be specified while running the relevant notebook cells).
  For starting from scratch, partitions 1 and 2 can be used for training and testing, else graph structures created from those partitions are also added here!
 
-* `MODELS/ contains pre-trained models
+* <code>MODELS/<code> contains pre-trained models
   
-* `CODE/ contains the necessary modules, in case of training all components from scratch, to create all the graphs from the bottom-up, the execution must start from hss.ipynb and euclidian_dist.ipynb. The details for each notebook file is as follows:
+* <code>CODE/<code> contains the necessary modules, in case of training all components from scratch, to create all the graphs from the bottom-up, the execution must start from hss.ipynb and euclidian_dist.ipynb. The details for each notebook file is as follows:
   - hss.ipynb: Includes the creation of graphs with correlation matrix, training and testing downstream classifiers, laplacian node embeddings.
   - euclidian_dist.ipynb: Includes the creation of graphs with Euclidian distance matrix, training and testing downstream classifiers, laplacian node embeddings.
   - Node2vec.ipynb: Includes the node2vec embedding algorithm, training and testing downstream classifiers with node embedding results.
