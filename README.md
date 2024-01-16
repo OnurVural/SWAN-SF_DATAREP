@@ -1,7 +1,7 @@
 # SWAN-SF_DATAREP
 
 Three solar flare classification strategies using the SWAN-SF dataset are assessed by focusing on data representations. Graph-based, time series-based, and vector-based methods to ascertain the optimal approach for representing the characteristics of the SWAN-SF dataset, which relies on photospheric magnetic field parameters, are explored. The graph representation aims to capture spatial dependencies, the time series representation aims to uncover temporal patterns, and the vector representation aims to capture the last timestamp of the multivariate time series closest in time to the flaring event. 
-
+![graphs2](https://github.com/OnurVural/SWAN-SF_DATAREP/assets/63475639/ee249e58-b816-4664-8374-a4f44b4fd7dd)
 # Exec. Details
 
 * <code> DATA/ </code> contains data points, in case of training all components from scratch, the folders to keep data files must be placed under here (names and paths can be specified while running the relevant notebook cells).
