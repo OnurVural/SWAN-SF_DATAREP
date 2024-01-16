@@ -1,0 +1,3 @@
+As the experiments are made in module1.ipynb, the created correlation matrices will be under the folder with following convention:
+partitionX_train
+partitionX_test
