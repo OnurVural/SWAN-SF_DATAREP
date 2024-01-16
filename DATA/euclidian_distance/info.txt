@@ -1,0 +1,3 @@
+As the experiments are made in module1.ipynb, the created euclidian distance matrices will be under the folders with following convention:
+partitionX_train
+partitionX_test
